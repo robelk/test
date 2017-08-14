@@ -1,0 +1,71 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul li a {
+        font-size: 13px;
+        padding: 10px;
+    }
+    header.header-area {
+        min-height: 500px;
+        padding-top: 20px;
+    }
+    h1.heading {
+        font-size: 40px;
+    }
+    .banner p {
+        font-size: 18px;
+    }
+    .banner {
+        margin-top: 80px;
+        padding-bottom: 50px;
+    }
+    .services-area h2 {
+        font-size: 30px;
+    }
+    .tab-heading ul li a {
+        margin-bottom: 20px;
+        min-width: auto;
+        padding: 8px 20px;
+    }
+    .single-widget {
+        margin-bottom: 20px;
+    }
+}
+/* Mobile Layout: 450px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 13px;
+    }
+    header.header-area {
+        min-height: 400px;
+        padding-top: 20px;
+    }
+    h1.heading {
+        font-size: 35px;
+    }
+    .banner p {
+        font-size: 14px;
+    }
+    .banner {
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+    .services-area h2 {
+        font-size: 25px;
+    }
+    .tab-heading ul li a {
+        margin-bottom: 20px;
+        min-width: auto;
+        padding: 8px 20px;
+    }
+    .single-widget {
+        margin-bottom: 20px;
+    }
+    button.navbar-toggle {
+        border: 1px solid #FADD7C;
+    }
+    .icon-bar {
+        background: #fadd7c none repeat scroll 0 0;
+    }
+}
